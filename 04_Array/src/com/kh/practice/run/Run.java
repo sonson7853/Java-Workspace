@@ -5,7 +5,7 @@ import com.kh.practice.array.ArrayPractice;
 public class Run {
 	public static void main(String[] args) {
 		ArrayPractice ap = new ArrayPractice();
-		ap.practice3();
+		ap.practice6();
 	}
 
 }
