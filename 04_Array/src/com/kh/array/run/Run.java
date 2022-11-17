@@ -12,7 +12,7 @@ public class Run {
 		//bac.method5();
 		
 		C_DimensionalArray cda = new C_DimensionalArray();
-		cda.method7();
+		//cda.method7();
 		
 	}
 

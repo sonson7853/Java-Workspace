@@ -190,23 +190,24 @@ public class C_DimensionalArray {
 		// 각각 반복문을 활용해서 출력
 		// 입력예시) xx점수를 입력하세요 :
 		// 출력에시) xx점수 : xx xx xx
-		Scanner sc = new Scanner(System.in);
-		String str = sc.nextLine();	
-		
-		int [][] arr = new int[2][];
-		arr[0] = new int[3];
-		arr[1] = new int[3];
+		Scanner sc = new Scanner(System.in);		
+		int [][] arr = new int[2][3];
 		
 		for(int i=0; i<arr.length; i++) {
-			for(int j=0; j<arr[i].length; j++) {
-				
+			for(int j=0; j<arr[i].length; j++) {			
+				System.out.printf("%s점수를 입력하세요 : ", i == 0 ? "국어" : "엉어");
+				arr[i][j] = sc.nextInt();
 			}
 		}
 		
-		
-		System.out.printf("%s점수를 입력하세요 : ", str);
-		System.out.print("xx점수 : ");
-		
+		for(int i=0; i<arr.length; i++) {
+			System.out.printf("%s점수 : ", i == 0 ? "국어" : "엉어");
+			for(int j=0; j<arr[i].length; j++) {			
+			System.out.print(arr[i][j] + " ");
+			}
+			System.out.println();
+		}
+				
 	}
 	
 	
