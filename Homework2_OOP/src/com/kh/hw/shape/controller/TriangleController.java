@@ -10,14 +10,14 @@ public class TriangleController {
 
 	// 메소드부
 	public double calcArea(double height, double width) {
+		s = new Shape(3 , height, width);
 		s.setHeight(height);
 		s.setWidth(width);
-		return height*width;
+		return height*width / 2;
 	}
 
 	public void paintColor(String color) {
-
-		return s.information();
+		s.setColor(color);
 	}
 
 	public String print() {

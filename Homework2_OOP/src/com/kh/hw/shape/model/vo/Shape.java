@@ -28,6 +28,9 @@ public class Shape {
 		}
 		public void setWidth(double width) {
 			this.width = width;	
+		}		
+		public void setColor(String color) {
+			this.color=color;
 		}
 		
 		// 2.getter 메소드
@@ -40,7 +43,10 @@ public class Shape {
 		public double getWidth() {
 			return width;
 		}
-				
+		public String setColor() {
+			return color;
+		}
+		
 		// 3.information 메소드
 		public String information() {
 			return height+" "+width+" "+color;

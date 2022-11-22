@@ -7,7 +7,7 @@ public class MethodTest2 {
 	/*
 	 * static 메소드
 	 * [표현법]
-	 * 접근제한자 static 예약어 반환형 메소드명(매개변수) {
+	 * 접근제한자 static(예약어) 반환형 메소드명(매개변수) {
 	 *  수행내용
 	 * 	return 반환값;
 	 * }
