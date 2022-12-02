@@ -13,7 +13,7 @@ public class FileRun {
 			File file1 = new File("test.txt");
 			file1.createNewFile();
 			
-			// 2. 경로 지정을 한 파일면(C:\\aaa\\test.txt)을 제시해서 생성하기 => 이때 존재하는 경로를 제시해야함.
+			// 2. 경로 지정을 한 파일명(C:\\aaa\\test.txt)을 제시해서 생성하기 => 이때 존재하는 경로를 제시해야함.
 			File file2 = new File("C:\\aaa\\test.txt");
 			file2.createNewFile();
 			
