@@ -116,6 +116,7 @@ public class ListRun {
 		System.out.println("=============================");
 		
 		// for each문 : 향상된 반복문
+		// for(값을 담아 줄 변수 생성 : 순차적으로 접근할 배열명, 컬렉션)
 		for(Music o : list) {
 			System.out.println(o);
 		}
